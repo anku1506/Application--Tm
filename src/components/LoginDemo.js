@@ -74,29 +74,27 @@ const LoginDemo = () => {
                     <span className="mx-2">Keep me signed in</span>
                   </div>
                   <Row>
-                      <Col md="12" sm="12" xs="12" xl="12">
+                    <Col md="12" sm="12" xs="12" xl="12">
                       <div>
-                    {" "}
-                    <Button
-                      variant="dark"
-                      className="button-style"
-                      type="submit"
-                      onClick={handleSubmmit}
-                    >
-                      Sign in
-                    </Button>
-                  </div>
-                      </Col>
+                        {" "}
+                        <Button
+                          variant="dark"
+                          className="button-style"
+                          type="submit"
+                          onClick={handleSubmmit}
+                        >
+                          Sign in
+                        </Button>
+                      </div>
+                    </Col>
 
-                      <Col md="12" sm="12" xs="12" xl="12">
+                    <Col md="12" sm="12" xs="12" xl="12">
                       <div className="my-4">
-                      <h6 className="line">or sign in with</h6>
-                    </div>
-                      </Col>
+                        <h6 className="line">or sign in with</h6>
+                      </div>
+                    </Col>
                   </Row>
-                  
-                  
-                 
+
                   <Row>
                     <Col md="3" sm="6" xs="12">
                       <span className="mx-2 my-2 ">
@@ -108,7 +106,7 @@ const LoginDemo = () => {
                       <span className="mx-2 my-2 ">
                         <FaFacebook size={30} />
                       </span>
-                    </Col >
+                    </Col>
                     <Col md="3" sm="6" xs="12">
                       {" "}
                       <span className="mx-2 my-2 ">
